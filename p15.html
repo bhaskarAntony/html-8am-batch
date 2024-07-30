@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <title>html tables</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <style>
+            body{
+                background-color: #f4f4f4;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .container{
+                display: flex;
+                width: 80%;
+                border-radius: 20px;
+                overflow: hidden;
+            }
+            .left-div{
+                min-height: 80vh;
+                background-color: #00a64d;
+                flex: 2;
+                color: #fff;
+            }
+            .right-div{
+                min-height: 80vh;
+                background-color: rgb(255, 255, 255);
+                flex: 3;
+            }
+            .date{
+                font-size: 8rem;
+                display: block;
+                text-align: center;
+                font-weight: bold;
+            }
+            .day{
+                display: block;
+                text-align: center;
+                font-size: 2rem;
+            }
+            table{
+                border-collapse: collapse;
+                width: 100%;
+
+            }
+            table td, table th{
+                padding: 25px 15px;
+                text-align: center;
+            }
+            td{
+                font-size: 1.5rem;
+                color: #242323;
+            }
+
+            table td:nth-child(odd){
+                background-color: #c9ffd949;
+            }
+            table tr:nth-child(odd){
+                background-color: #c9ffd951;
+            }
+            table td:hover{
+                background-color: #0dd56a;
+                color: #fff;
+            }
+
+            
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="left-div">
+              <div style="padding: 20px;">
+                <i class="fa-solid fa-bars" style="font-size: 1.5rem;"></i>
+              </div>
+               <div>
+                <span class="date">19</span>
+                <span class="day">FRIDAY</span>
+               </div>
+            </div>
+            <div class="right-div">
+                <table >
+                    <tr style="color: gray;">
+                        <th>Jan</th>
+                        <th>Feb</th>
+                        <th>Mar</th>
+                        <th>Apr</th>
+                        <th>May</th>
+                        <th>Jun</th>
+                        <th>Jul</th>
+                        <th>Aug</th>
+                        <th>Sep</th>
+                        <th>Oct</th>
+                        <th>Nov</th>
+                        <th>dec</th>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr style="color: #00a64d;">
+                        <th>SUN</th>
+                        <th>MON</th>
+                        <th>TUE</th>
+                        <th>WED</th>
+                        <th>THU</th>
+                        <th>FRI</th>
+                        <th>SAT</th>
+                    </tr>
+
+                    <tr>
+                        <td>30</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </body>
+
+
+</html>

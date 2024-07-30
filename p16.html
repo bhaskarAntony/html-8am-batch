@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <title>HTML TABLE with ROWSPAN</title>
+        <style>
+            table{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                border-collapse: collapse;
+            }
+            th{
+                background-color: lightblue;
+                border: 1px solid #ffffff;
+            }
+            td{
+                border: 1px solid #ccc;
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <center>
+            <h1>Rowspan</h1>
+        </center>
+        <hr>
+        <table border="1" width="100%" cellpadding="10" cellspacing="0">
+            <caption>Creating tables with row span </caption>
+            <tr>
+                <th>SI.NO</th>
+                <th></th>
+                <td>01</td>
+                <td>02</td>
+                <td>03</td>
+                <td>04</td>
+                <td>05</td>
+            </tr>
+
+            <tr>
+                <th rowspan="3">Student name</th>
+            </tr>
+
+            <tr>
+                <th>Firstname</th>
+                <td>examplename01</td>
+                <td>examplename02</td>
+                <td>examplename03</td>
+                <td>examplename04</td>
+                <td>examplename05</td>
+            </tr>
+            <tr>
+                <th>lastname</th>
+                <td>examplelastname01</td>
+                <td>examplelastname02</td>
+                <td>examplelastname03</td>
+                <td>examplelastname04</td>
+                <td>examplelastname05</td>
+            </tr>
+
+            <tr>
+                <th>Phone number</th>
+                <th></th>
+                <td>+91836574601</td>
+                <td>+91836574602</td>
+                <td>+91836574603</td>
+                <td>+91836574604</td>
+                <td>+91836574605</td>
+            </tr>
+
+            <tr>
+                <th rowspan="3">Address</th>
+            </tr>
+            <tr>
+                <th>Address1</th>
+                <td>exampleAddress1</td>
+                <td>exampleAddress2</td>
+                <td>exampleAddress3</td>
+                <td>exampleAddress4</td>
+                <td>exampleAddress5</td>
+            </tr>
+            <tr>
+                <th>Address2</th>
+                <td>exampleAddress1</td>
+                <td>exampleAddress2</td>
+                <td>exampleAddress3</td>
+                <td>exampleAddress4</td>
+                <td>exampleAddress5</td>
+            </tr>
+
+            <tr>
+                <th rowspan="5">marks</th>
+            </tr>
+
+            <tr>
+                <th>Kannada</th>
+                <td>01%</td>
+                <td>02%</td>
+                <td>03%</td>
+                <td>04%</td>
+                <td>05%</td>
+            </tr>
+
+            <tr>
+                <th>English</th>
+                <td>01%</td>
+                <td>02%</td>
+                <td>03%</td>
+                <td>04%</td>
+                <td>05%</td>
+            </tr>
+
+            <tr>
+                <th>Hindi</th>
+                <td>01%</td>
+                <td>02%</td>
+                <td>03%</td>
+                <td>04%</td>
+                <td>05%</td>
+            </tr>
+
+            <tr>
+                <th>marati</th>
+                <td>01%</td>
+                <td>02%</td>
+                <td>03%</td>
+                <td>04%</td>
+                <td>05%</td>
+            </tr>
+
+        </table>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>HTML TABLES</title>
+        <style>
+            table tr td img{
+                width: 40px;
+                height:40px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 3px solid #0505b9;
+                padding: 2px;
+           
+            }
+
+            table tr td img:hover{
+                transform: scale(1.2) rotate(360deg);
+                transition: 0.7s;
+                border: 3px dashed #0505b9;
+            }
+            table{
+                border-collapse: collapse;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            table tr th, table tr td{
+                border: 1px solid #ccc;
+                padding: 15px;
+                text-align: center;
+            }
+            th{
+                background-color: #0505b9;
+                color: #fff;
+            }
+           
+           caption{
+            border: 1px solid #ccc;
+            padding: 10px;
+           }
+           /* tr:nth-child(even){
+            background-color: #3a3afd23;
+           }
+           tr:nth-child(odd){
+            background-color: #ffffff;
+           }
+           tr:nth-child(odd):hover{
+            background-color: #3a3afd23;
+           } */
+           td:nth-child(even){
+            background-color: #5b5bee23;
+           }
+           td:nth-child(odd){
+            background-color: #ffffff;
+           }
+           td:nth-child(odd):hover{
+            background-color: #1313f9;
+            transform: scale(1.2);
+            color: #fff;
+           }
+
+           body{
+            background: url(https://cdn.magicdecor.in/com/2024/02/06154140/Colorful-Gaming-Console-Wallpaper-for-Gamers.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center top;
+           }
+        </style>
+    </head>
+    <body>
+        
+        <table width="100%">
+            <caption>Founders</caption>
+            <tr>
+                <th>SI.NO</th>
+                <th>Profile</th>
+                <th>FullName</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSepURZt-f112wNUGblzXPMA_2fAGMKHVDZUg&s" alt="bill gates"></td>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpc28b1PoQfqoueAB4gLph_lBW1t4oX8fmUQ&s" alt="bill gates"></td>
+                <td>Steve Jobs</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><img src="https://assets-us-01.kc-usercontent.com/5cb25086-82d2-4c89-94f0-8450813a0fd3/9da25564-a085-4df4-853e-963ecc6051cd/Larry_Page.jpg?fm=jpg&auto=format" alt="bill gates"></td>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><img src="https://media.glamour.com/photos/5696d35bfbaa9ddf58554452/master/w_1600%2Cc_limit/weddings-blogs-save-the-date-0515mark-zuckerberg-hoodiegate_fa.jpg"></td>
+                <td>Mark ZuckeBerg</td>
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+            </tr>
+        </table>
+
+    </body>
+</html>

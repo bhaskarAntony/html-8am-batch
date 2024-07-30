@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <title>HTML form</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <h4>All  form input types</h4>
+                <form action="" autocomplete="off" novalidate>
+                    <fieldset>
+                        <legend>Text</legend>
+                        <label for="name">Username</label>
+                        <input type="text" id="name" name="username" placeholder="here we can enter any text" required minlength="20" maxlength="25">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>email</legend>
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required minlength="8" maxlength="15">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>password</legend>
+                        <label for="password">password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="8" >
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Number</legend>
+                        <label for="num">Enter your fav number</label>
+                        <input type="number" id="num" name="fav_number" placeholder="Enter any number" required minlength="8"  min="0" max="10">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Checkboxes</legend>
+                        <label for="Checkboxes">select your language</label> <br>
+                        <label for="kannada">
+                            <input type="checkbox" name="language" id="kannada" value="kannada">
+                            Kannada
+                        </label>
+                        <label for="english">
+                            <input type="checkbox" name="language" id="english" value="english">
+                            English
+                        </label>
+                        <label for="tamil">
+                            <input type="checkbox" name="language" id="tamil" value="tamil">
+                            Tamil
+                        </label>
+
+                        <label for="telugu">
+                            <input type="checkbox" name="language" id="telugu" value="telugu" checked>
+                            Telugu
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Radio</legend>
+                        <label for="radio">select your language</label> <br>
+                        <label for="python">
+                            <input type="radio" name="course" id="python" value="python">
+                            Python Fullstack
+                        </label>
+                        <label for="mern">
+                            <input type="radio" name="course" id="mern" value="mern">
+                            Mern Fullsatck
+                        </label>
+                        <label for="mean">
+                            <input type="radio" name="course" id="mean" value="mean" checked>
+                            Mean Fullstack
+                        </label>
+
+                        <label for="java">
+                            <input type="radio" name="course" id="java" value="java">
+                            Java fullstack
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Color</legend>
+                        <label for="color">Select fav color</label>
+                        <input type="color" id="color" name="fav_color" required style="height: 40px; border-radius: 100px;" value="#ffffff">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Date</legend>
+                        <label for="date">Select date</label>
+                        <input type="date" id="date" name="date" required >
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>dateTime</legend>
+                        <label for="datetime">Select date</label>
+                        <input type="datetime" id="datetime" name="datetime" required >
+                    </fieldset>
+                    <fieldset>
+                        <legend>dateTime local</legend>
+                        <label for="datetime_local">Select date</label>
+                        <input type="datetime-local" id="datetime_local" name="datetime_local" required >
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Range</legend>
+                        <label for="brightness">Brightness</label>
+                        <input type="range" id="brightness" name="brightness" required min="0" max="100">
+
+                        <label for="langauges">Kanguages known</label>
+                        <label for="html" style="display: flex; align-items: center; gap: 10px;">
+                            70%
+                            <input type="range" value="70" id="html" name="html" min="0" max="100">
+                            HTML
+                        </label>
+
+                        <label for="css" style="display: flex; align-items: center; gap: 10px;">
+                            40%
+                            <input type="range" id="css" name="css" value="40" min="0" max="100">
+                            CSS
+                        </label>
+
+                        <label for="js" style="display: flex; align-items: center; gap: 10px;">
+                            95%
+                            <input type="range" id="js" name="javascriot" value="95" min="0" max="100">
+                            Javascript
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>search</legend>
+                        <label for="search">Search for products</label>
+                        <input type="search" id="search" placeholder="serach here..." name="search_keyword" required >
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>url</legend>
+                        <label for="url">enter url</label>
+                        <input type="url" id="url" placeholder="https://example.com" name="url" required >
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Month</legend>
+                        <input type="month" name="month" id="month" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>week</legend>
+                        <input type="week" name="week" id="week" required>
+                    </fieldset>
+
+
+                    <fieldset>
+                        <legend>Hidden</legend>
+                        <input type="hidden" name="accountnumber" id="accountnumber" value="AC60282787262">
+                    </fieldset>
+
+
+                    <fieldset>
+                        <legend>Image input</legend>
+                        <input type="image" src="https://img.freepik.com/premium-vector/submit-button_592324-13665.jpg" alt="submit-button" style="width: 150px; margin: auto; display: block; padding: 0px;">
+                    </fieldset>
+
+
+
+
+                    <input type="submit" value="Check inputs">
+                    <input type="reset" value="Clear inputs">
+                </form>
+
+               
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title>html Lists</title>
+        <style>
+            /* .emojilist li::marker{
+                content:"😎"
+            }    */
+
+            .emojilist li::marker{
+                content: "😁";
+            }
+            .emojilist li:nth-child(1)::marker{
+                content:"😎"
+            }   
+            .emojilist li:nth-child(2)::marker{
+                content:"🤐"
+            }  
+            .emojilist li:nth-child(3)::marker{
+                content:"✅"
+            }   
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>HTML LISTS</h1>
+            <p>there are 3 types of list</p>
+            <p>1) Ordered List or numbered list (OL tag)</p>
+            <p>2) Unordered List or Bullet list (UL tag)</p>
+            <p>3) Description list (DL tag)</p>
+        </center>
+
+        <h1>Unordered List or Bullet list (UL tag)</h1>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>BOOTSTRAP</li>
+            <li>JS</li>
+            <li>REACTJS</li>
+        </ul>
+
+        <h1>Unordered or Bullet List Types</h1>
+        <p>disc</p>
+        <p>circle</p>
+        <p>square</p>
+        <p>none</p>
+
+
+        <ul type="disc">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>BOOTSTRAP</li>
+            <li>JS</li>
+            <li>REACTJS</li>
+        </ul>
+
+        
+        <ul type="circle">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>BOOTSTRAP</li>
+            <li>JS</li>
+            <li>REACTJS</li>
+        </ul>
+        
+        <ul type="square">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>BOOTSTRAP</li>
+            <li>JS</li>
+            <li>REACTJS</li>
+        </ul>
+
+        
+        <ul type="none">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>BOOTSTRAP</li>
+            <li>JS</li>
+            <li>REACTJS</li>
+        </ul>
+
+
+
+
+
+        <h1>Nested unordered list</h1>
+        
+        <ul type="disc">
+            <li>
+                <h1>HTML versions</h1>
+                <ul>
+                    <li>HTML</li> 
+                    <li>HTML5</li> 
+                </ul>
+            </li>
+            <li>
+                <hr>
+                <h1>CSS</h1> 
+                <ul>
+                    <li>CSS</li>
+                    <li>CSS3</li>
+                </ul>
+                <hr>
+            </li>
+            <li>BOOTSTRAP</li>
+            <li>JS</li>
+            <li>REACTJS</li>
+        </ul>
+
+        <ul class="emojilist">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>BOOTSTRAP</li>
+            <li>JS</li>
+            <li>REACTJS</li>
+        </ul>
+
+        
+    </body>
+</html>

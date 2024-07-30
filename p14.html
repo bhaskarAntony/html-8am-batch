@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>HTML TBALES WITH COLSPAN</title>
+        <style>
+            body{
+                background-color: #ffe4c2;
+            }
+            table{
+                border-collapse: collapse;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            table tr th, table tr td{
+                padding: 5px;
+                font-size: 15px;
+            }
+            th{
+                background-color: rgb(244, 181, 93);
+                color: rgb(119, 43, 19);
+                border: 2px solid rgb(227, 137, 109);
+            }
+            tr:nth-child(even){
+                background-color: #e7e5e5;
+            }
+            tr:nth-child(odd){
+                background-color: #fff;
+            }
+            td{
+                border: 1px solid #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <center>
+            <h1>TBALES with colspan</h1>
+        </center>
+        <hr>
+
+        <table border="1">
+            <caption>Colspan example tables</caption>
+            <tr>
+                <th>SI.NO</th>
+                <th colspan="2">Student name</th>
+                <th>Phone number</th>
+                <th colspan="2">Address</th>
+                <th colspan="4">Marks</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>First name</th>
+                <th>last name</th>
+                <th></th>
+                <th>Address1</th>
+                <th>Address2</th>
+                <th>subject1</th>
+                <th>subject2</th>
+                <th>subject3</th>
+                <th>subject4</th>
+            </tr>
+
+            <tr>
+                <td>01</td>
+                <td>Arun</td>
+                <td>Kumar</td>
+                <td>+91983653636</td>
+                <td>test-adress1</td>
+                <td>test-adress2</td>
+                <td>56%</td>
+                <td>89%</td>
+                <td>97%</td>
+                <td>76%</td>
+            </tr>
+
+            <tr>
+                <td>02</td>
+                <td>Arun</td>
+                <td>Kumar</td>
+                <td>+91983653636</td>
+                <td>test-adress1</td>
+                <td>test-adress2</td>
+                <td>56%</td>
+                <td>89%</td>
+                <td>97%</td>
+                <td>76%</td>
+            </tr>
+
+            <tr>
+                <td>03</td>
+                <td>Arun</td>
+                <td>Kumar</td>
+                <td>+91983653636</td>
+                <td>test-adress1</td>
+                <td>test-adress2</td>
+                <td>56%</td>
+                <td>89%</td>
+                <td>97%</td>
+                <td>76%</td>
+            </tr>
+
+
+            <tr>
+                <td>04</td>
+                <td>Arun</td>
+                <td>Kumar</td>
+                <td>+91983653636</td>
+                <td>test-adress1</td>
+                <td>test-adress2</td>
+                <td>56%</td>
+                <td>89%</td>
+                <td>97%</td>
+                <td>76%</td>
+            </tr>
+        </table>
+    </body>
+</html>

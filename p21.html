@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>FORM ELEMENTS</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="card">
+                <h3>Create new account</h3>
+                <form action="">
+                    <label for="name">username</label>
+                    <input type="text" id="name" placeholder="enter username" name="username" required minlength="7" maxlength="10" >
+                    <label for="email">Email address</label>
+                    <input type="email" id="email"placeholder="enter your email address" name="email" required >
+                    <label for="phone">Phone number</label>
+                    <input type="tel" placeholder="+91 000-0000-000" required minlength="10" maxlength="13" id="phone" name="phonenumber">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required minlength="8">
+                    <label for="gender"><big>gender</big></label> <br>
+                 <label for="male">
+                    <input type="radio" id="male" name="gender">
+                    Male
+                 </label>
+                 <label for="female">
+                    <input type="radio" id="female" name="gender">
+                    Female
+                 </label> <br> <br>
+                    <small>Already registered?<a href="#" style="color: #00763b;"> Sign in</a></small>
+                    <input type="submit" value="create account">
+                    <input type="reset" value="cancel">
+                </form>
+              
+            </div>
+            <div class="card">
+                <h3>Welcome back, Sign in</h3>
+                <form action="">
+                   
+                    <label for="email">Email address</label>
+                    <input type="email" id="email"placeholder="enter your email address" name="email" required >
+                  
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required minlength="8">
+
+                    <small>Not registered?<a href="#" style="color: #00763b;"> Create Account</a></small>
+                    <input type="submit" value="Login">
+                    <input type="reset" value="cancel">
+                </form>
+              
+            </div>
+        </div>
+    </body>
+</html>

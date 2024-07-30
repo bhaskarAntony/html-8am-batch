@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Dynamic Marquee tag</title>
+        <style>
+            #testMarquee{
+                padding: 20px;
+                background-color: lightskyblue;
+                border: 2px solid darkcyan;
+                color: rgb(2, 59, 59);
+                margin: 20px;
+                font-size: 2rem;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <center>
+            <h1>Dynamic Marquee tag in html using simple JS</h1>
+        </center>
+
+        <marquee behavior="scroll" direction="left" scrollamount="30" id="testMarquee">
+            <img src="./assets/images/image1.png" width="100" alt="">
+            <img src="./assets/images/image1.png" width="100" alt="">
+            <img src="./assets/images/image1.png" width="100" alt="">
+            <img src="./assets/images/image1.png" width="100" alt="">
+            <img src="./assets/images/image1.png" width="100" alt="">
+            <img src="./assets/images/image1.png" width="100" alt="">
+            <img src="./assets/images/image1.png" width="100" alt="">
+            <img src="./assets/images/image1.png" width="100" alt="">
+            <img src="./assets/images/image1.png" width="100" alt="">
+        </marquee>
+
+
+        <script>
+            const testMarquee =  document.getElementById('testMarquee');
+            // console.log('hello');
+              // alert('user hovering to marquee')
+              testMarquee.onmouseover = function(){
+                // alert('user hovering to marquee')
+                testMarquee.stop();
+                testMarquee.style.backgroundColor = "rgb(255, 57, 57)";
+                testMarquee.style.border = '2px solid rgb(178, 0, 0)';
+                testMarquee.style.color = "rgb(178, 0, 0)";
+            }
+
+            testMarquee.onmouseleave = function(){
+                testMarquee.start();
+                testMarquee.style.backgroundColor = "lightseagreen";
+                testMarquee.style.border = '2px solid darkcyan';
+                testMarquee.style.color = "rgb(2, 59, 59)";
+            }
+        </script>
+    </body>
+</html>

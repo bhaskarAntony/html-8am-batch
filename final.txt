@@ -1,0 +1,39 @@
+//heading tags
+//formating tags
+//anchor tags
+//image tags
+//link tags
+//table tags
+//html lists
+//marquee tags 
+//iframe or embed
+//form tags
+//input
+//fieldset
+//legend
+//select tags
+//center
+//hr
+//br
+
+styles
+
+color
+background-color
+padding
+margin
+border
+display:flex
+align-items
+justify-content
+font-family
+font-size
+font-weight
+width
+height
+background-image 
+text-align
+
+
+
+
